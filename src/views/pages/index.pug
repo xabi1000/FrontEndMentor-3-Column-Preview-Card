@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+html(lang="es")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    link(rel="preconnect" href="https://fonts.googleapis.com")
+    link(rel="preconnect" href="https://fonts.gstatic.com" crossorigin)
+    link(href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap" rel="stylesheet")
+    link(rel="stylesheet", href="css/styles.css")
+
+    title FrontEndMentor || 3-Column-Preview-Card
+  body
+    section.card-container
+      ul.card
+        li.card__item 
+          img.card__item--logo(src="/images/icon-luxury.svg")
+        li.card__item
+          h2.card__item--title Sedans
+        li.card__item 
+          p.card__item--text Choose a sedan for its affordability and excellent fuel economy. Ideal for cruising in the city or on your next road trip.
+        li.card__item 
+          a(href="#").card__item--button Learn More 
+      ul.card
+        li.card__item
+          img.card__item--logo(src="/images/icon-sedans.svg") 
+        li.card__item
+          h2.card__item--title SUVs
+        li.card__item 
+          p.card__item--text Take an SUV for its spacious interior, power, and versatility. Perfect for your next family vacation and off-road adventures.
+        li.card__item
+          a(href="#").card__item--button  Learn More
+      ul.card
+        li.card__item
+          img.card__item--logo(src="/images/icon-suvs.svg")
+        li.card__item
+          h2.card__item--title Luxury
+        li.card__item 
+          p.card__item--text Cruise in the best car brands without the bloated prices. Enjoy the enhanced comfort of a luxury rental and arrive in style.
+        li.card__item
+          a(href="#").card__item--button  Learn More  
+   
+    script(src="js/scripts-min.js")
